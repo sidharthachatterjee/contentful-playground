@@ -19,7 +19,7 @@ const Image = () => (
       query {
         contentfulAsset(id: { eq: "d3254618-7b35-5d1c-a1cd-cf9f5b1c31fd" }) {
           id
-          fixed(width: 344, quality: 100) {
+          fixed(width: 385, quality: 100) {
             ...GatsbyContentfulFixed
           }
         }
